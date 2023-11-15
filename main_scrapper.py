@@ -35,8 +35,8 @@ if __name__ == '__main__':
     print('wait while we fetch you some results!!!')
 
     # Specify the URL you want to scrape
-    login_url = ('https://www.updinc.net/accounts/signin/')
-    secure_url = ('https://www.updinc.net/accounts/')
+    login_url = ('')
+    secure_url = ('')
 
     response = set_sessions(login_url, secure_url)
     soup = __getsoup(response)
